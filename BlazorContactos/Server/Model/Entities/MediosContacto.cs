@@ -14,6 +14,9 @@ namespace BlazorContactos.Server.Models.Entities
         [Required]
         public string Celular { get; set; }
 
+        public List<Contacto> Contacto { get; set; }
+        public List<Imagen> Imagen { get; set; }
+
     }
 }
     
